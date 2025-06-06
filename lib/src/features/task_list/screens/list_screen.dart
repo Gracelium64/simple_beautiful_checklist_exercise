@@ -56,8 +56,10 @@ class _ListScreenState extends State<ListScreen> {
                   padding: const EdgeInsets.all(40.0),
                   child: TextField(
                     controller: _controller,
+                    style: TextStyle(color: Colors.white),
                     decoration: InputDecoration(
                       labelText: 'Task Hinzufügen',
+
                       suffixIcon: IconButton(
                         icon: const Icon(Icons.add),
                         onPressed: () {
