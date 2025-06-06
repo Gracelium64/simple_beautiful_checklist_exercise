@@ -59,7 +59,6 @@ class _ListScreenState extends State<ListScreen> {
                     style: TextStyle(color: Colors.white),
                     decoration: InputDecoration(
                       labelText: 'Task Hinzufügen',
-
                       suffixIcon: IconButton(
                         icon: const Icon(Icons.add),
                         onPressed: () {
